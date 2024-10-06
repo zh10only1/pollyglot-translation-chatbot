@@ -12,7 +12,8 @@ const config: Config = {
         grSkin1: "#fae1dd",
         grSkin2: "#fcd5ce",
         grSkin3: "#fec5bb",
-        DarkBlue: "#0d182e"
+        DarkBlue: "#0d182e",
+        parrotGreen: "#32cd32"
       },
     },
   },
