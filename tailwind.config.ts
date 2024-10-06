@@ -9,8 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        grSkin1: "#fae1dd",
+        grSkin2: "#fcd5ce",
+        grSkin3: "#fec5bb",
+        DarkBlue: "#0d182e"
       },
     },
   },
