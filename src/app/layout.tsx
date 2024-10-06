@@ -14,8 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      >
+      <body className="bg-gradient-to-r from-grSkin1 via-grSkin2 to-grSkin3 min-h-screen overflow-auto">
         {children}
       </body>
     </html>
