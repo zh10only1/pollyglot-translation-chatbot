@@ -1,12 +1,16 @@
-import Image from 'next/image';
+"use client";
+
+import { useState } from "react";
 import Container from '@/components/Container';
-import bannnerImage from '@/public/images/banner.png';
+import Chat from '@/components/Chat';
 import Banner from '@/components/Banner';
 
 export default function Home() {
+  const [selectedLanguage, setSelectedLanguage] = useState<string>("");
   return (
     <Container>
-      <Banner />
+      <Banner selectedLanguage={selectedLanguage} setSelectedLanguage={setSelectedLanguage}/>
+      <Chat selectedLanguage={selectedLanguage} setSelectedLanguage={setSelectedLanguage} />
     </Container>
   );
 }
