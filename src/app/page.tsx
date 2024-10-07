@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Container>
       <Banner selectedLanguage={selectedLanguage} setSelectedLanguage={setSelectedLanguage}/>
-      <Chat selectedLanguage={selectedLanguage} setSelectedLanguage={setSelectedLanguage} />
+      <Chat selectedLanguage={selectedLanguage}/>
     </Container>
   );
 }

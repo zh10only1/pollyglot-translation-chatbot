@@ -12,10 +12,9 @@ interface ChatMessage {
 
 interface ChatBoxProps {
     selectedLanguage: string;
-    setSelectedLanguage: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const ChatBox:React.FC<ChatBoxProps> = ({selectedLanguage, setSelectedLanguage}) => {
+const ChatBox:React.FC<ChatBoxProps> = ({selectedLanguage}) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState<string>("");
 
