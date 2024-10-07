@@ -21,6 +21,7 @@ const ChatBox:React.FC<ChatBoxProps> = ({selectedLanguage}) => {
   const sendMessage = () => {
     if (input.trim() === "") return;
     setMessages([...messages, { type: "user", message: input }]);
+    console.log(selectedLanguage);
     setInput("");
   };
 
